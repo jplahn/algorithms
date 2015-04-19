@@ -1,4 +1,6 @@
-# Performs a binary search on a sorted array.
+# Performs a binary search on a sorted array. Checks the midpoint to see if
+# it is the desired value, otherwise it checks the left or right portion
+# of array depending on comparison
 def bin_search(array, left, right, value):
     if (right >= left):
         mid = left + (right - left) / 2;

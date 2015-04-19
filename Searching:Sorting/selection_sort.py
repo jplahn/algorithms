@@ -1,3 +1,5 @@
+# works by moving minimum element of unsorted portion of array into the
+# sorted portion of the array [sorted, unsorted]
 def selection_sort(array, n):
     # increment boundary of unsorted array
     for i in range(0, n):
