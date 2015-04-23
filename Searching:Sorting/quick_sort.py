@@ -10,6 +10,7 @@ def partition(array, left, end_index):
         if (array[j] <= x):
             i = i + 1
             array[i], array[j] = array[j], array[i]
+        print array
 
     array[i + 1], array[end_index] = array[end_index], array[i + 1]
     return i + 1
